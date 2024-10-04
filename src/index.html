@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Battleship</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="battleship-container">
+      <h1 class="game-title">Welcome To Battleship</h1>
+
+      <div class="boards-container">
+        <section class="player-section">
+          <p class="player-name-1">Player 1</p>
+          <div class="game-board-1"></div>
+        </section>
+        <section class="player-section">
+          <p class="player-name-2">Player 2</p>
+          <div class="game-board-2"></div>
+        </section>
+      </div>
+
+      <div class="message-section">
+        <p class="game-message"></p>
+        <p class="turn-indicator"></p>
+        <div class="mode-selection">
+          <button id="player-vs-player">Player vs Player</button>
+          <button id="player-vs-computer">Player vs Computer</button>
+        </div>
+        <div id="options">
+          <div id="randomize-buttons"></div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
