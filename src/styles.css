@@ -41,7 +41,7 @@ body {
   transform: translate(-50%, -50%); /* Adjust for centering */
   width: 300px; /* Adjust size as needed */
   height: 300px; /* Adjust size as needed */
-  background-image: url('/home/austinbakaric/Desktop/project-battleship/src/assets/vaporwave.png'); /* Path to your image */
+ background-image: url('./assets/vaporwave.png');
   background-size: cover; /* Ensure the background covers the area */
   opacity: 0.2; /* Adjust opacity for a subtle background */
   z-index: -1; /* Ensure the background is behind the text */
